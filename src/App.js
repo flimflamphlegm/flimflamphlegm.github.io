@@ -15,7 +15,6 @@ function App() {
 			Ivan Cheng
 		</h1>
 		<div className='container'>
-
 				<img src={logo} className="pic" alt="me" />
 				<p className = 'Bio'>
 				I'm a 4th year Electrical Engineering student currently studying at UBC.
