@@ -1,47 +1,45 @@
-.App {
+.Bio {
   text-align: center;
+  align-items: center;
+}
+
+.top{
+	vertical-align: top;
+	color: white;
+	font-size: calc(8px + 2vmin);
+	justify-content: center;
+	padding-left: calc(2px + 2vmin);
+	padding-right: calc(2px + 2vmin);
 }
 
 .pic {
-  width: 20vw;
-  padding-top: calc(2px + 2vmin); 
-  padding-bottom: calc(2px + 2vmin); 
+  display: run-in;
+  height: 30vh;
+  padding-top: calc(1px + 1vmin); 
+  padding-bottom: calc(1px + 1vmin); 
   pointer-events: none;
-  
-}
-
-.App-header {
-  background-color: #212121;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .button{
     border-radius: calc(1px + 1vmin);
-	font-size: calc(4px + 2vmin);
+	font-size: calc(2px + 1.5vmin);
 	color: black;
     cursor: pointer;
     padding: calc(1px + 1vmin) calc(2px + 1vmin);
     border: none;
+	background-color: white;
 }
 
 .container{
-	font-size: calc(8px + 2vmin);
+    font-size: calc(3px + 2vmin);
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-	width: 95vw;
 	padding-left: calc(2px + 2vmin);
 	padding-right: calc(2px + 2vmin);
 	min-height: 100vh;
     align-items: center;
 	background-color: #212121;
+
 }
