@@ -1,13 +1,25 @@
 .Bio {
+  text-align: left;
+  align-items: center;
+  letter-spacing: 0.01rem;
+  color: white;
+  width: min(768px,90vw);
+  font-size: calc(3px + 1.6vmin);
+}
+
+.title {
   text-align: center;
   align-items: center;
   letter-spacing: 0.01rem;
+  color: white;
+  width: min(768px,90vw);
+  font-size: calc(4px + vmin);
 }
 
 .top{
 	vertical-align: top;
 	color: white;
-	font-size: calc(8px + 2vmin);
+	font-size: calc(4px + 2vmin);
 	justify-content: center;
 	padding-left: calc(2px + 2vmin);
 	padding-right: calc(2px + 2vmin);
@@ -23,6 +35,7 @@
 }
 
 .button{
+	align-items: left;
     border-radius: calc(1px + 1vmin);
 	font-size: calc(2px + 1.5vmin);
 	color: black;
@@ -33,12 +46,11 @@
 }
 
 .container{
-    font-size: calc(3px + 2vmin);
     color: white;
     display: flex;
     flex-direction: column;
-	padding-left: calc(2px + 2vmin);
-	padding-right: calc(2px + 2vmin);
+	padding-left: calc(2px + 4vmin);
+	padding-right: calc(2px + 4vmin);
 	min-height: 100vh;
     align-items: center;
 	background-color: #212121;

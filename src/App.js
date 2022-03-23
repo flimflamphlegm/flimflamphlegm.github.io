@@ -11,14 +11,22 @@ function App() {
 
   return (
    <div className = 'top'>
-		<h1 className = 'Bio'> 
-			Ivan Cheng
-		</h1>
 		<div className='container'>
-				<img src={logo} className="pic" alt="me" />
-				<p className = 'Bio'>
-				I'm a 4th year Electrical Engineering student currently studying at UBC.
-				</p>
+			<h1 className = 'title'> 
+				Hey there!
+			</h1>
+			{/*<img src={logo} className="pic" alt="me" />*/}
+			<p className = 'Bio'>
+				My name is Ivan Cheng. I recently graduated from the University 
+				of British Columbia with a B.ASc in Electrical Engineering.
+				<br/><br/>
+				I'm starting at Amazon this fall as a software engineer. 
+				Previously, I've worked at UBC as a research intern, focusing on HTOL testing of FETs. 
+				I've also worked at Echoflex Solutions as an embedded engineering intern, developing sensors for their aquaponics system.
+				<br/><br/>
+				In my free time, I enjoy music, photography, and trips to IKEA. 
+				<br/><br/><br/>
+			</p>	
 			<a href={Pdf} without rel="noopener noreferrer" target="_blank">
 			  <button className = "button" trailingIcon="picture_as_pdf" label="Resume">
 				Resume
