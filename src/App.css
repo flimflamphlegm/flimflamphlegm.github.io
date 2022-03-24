@@ -3,8 +3,8 @@
   align-items: center;
   letter-spacing: 0.01rem;
   color: white;
-  width: min(768px,90vw);
-  font-size: calc(3px + 1.6vmin);
+  width: min(768px,85vw);
+  font-size: 16px;
 }
 
 .title {
@@ -13,7 +13,7 @@
   letter-spacing: 0.01rem;
   color: white;
   width: min(768px,90vw);
-  font-size: calc(4px + vmin);
+  font-size: 36px;
 }
 
 .top{
@@ -37,7 +37,7 @@
 .button{
 	align-items: left;
     border-radius: calc(1px + 1vmin);
-	font-size: calc(2px + 1.5vmin);
+	font-size: 16px;
 	color: black;
     cursor: pointer;
     padding: calc(1px + 1vmin) calc(2px + 1vmin);

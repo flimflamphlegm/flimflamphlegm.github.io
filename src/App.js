@@ -17,7 +17,7 @@ function App() {
 			</h1>
 			{/*<img src={logo} className="pic" alt="me" />*/}
 			<p className = 'Bio'>
-				My name is Ivan Cheng. I recently graduated from the University 
+				My name is Ivan Cheng. I recently graduated in 2022 from the University 
 				of British Columbia with a B.ASc in Electrical Engineering.
 				<br/><br/>
 				I'm starting at Amazon this fall as a software engineer. 
