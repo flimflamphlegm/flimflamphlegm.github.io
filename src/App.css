@@ -3,7 +3,7 @@
   align-items: center;
   letter-spacing: 0.01rem;
   color: white;
-  width: min(768px,85vw);
+  width: min(520px,85vw);
   font-size: 16px;
 }
 
@@ -12,7 +12,7 @@
   align-items: center;
   letter-spacing: 0.01rem;
   color: white;
-  width: min(768px,90vw);
+  width: min(520px,90vw);
   font-size: 36px;
 }
 

@@ -25,7 +25,7 @@ function App() {
 				I've also worked at Echoflex Solutions as an embedded engineering intern, developing sensors for their aquaponics system.
 				<br/><br/>
 				In my free time, I enjoy music, photography, and trips to IKEA. 
-				<br/><br/><br/>
+				<br/><br/>
 			</p>	
 			<a href={Pdf} without rel="noopener noreferrer" target="_blank">
 			  <button className = "button" trailingIcon="picture_as_pdf" label="Resume">
