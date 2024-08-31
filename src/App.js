@@ -17,21 +17,28 @@ function App() {
 			</h1>
 			{/*<img src={logo} className="pic" alt="me" />*/}
 			<p className = 'Bio'>
-				My name is Ivan Cheng. I recently graduated in 2022 from the University 
+				My name is Ivan Cheng. I graduated in 2022 from the University 
 				of British Columbia with a B.ASc in Electrical Engineering.
 				<br/><br/>
-				I'm starting at Amazon this fall as a software engineer. 
-				Previously, I've worked at UBC as a research intern, focusing on HTOL testing of FETs. 
-				I've also worked at Echoflex Solutions as an embedded engineering intern, developing sensors for their aquaponics system.
+				I currently work at AWS as a software engineer in the Payments domain. 
 				<br/><br/>
 				In my free time, I enjoy music, photography, and trips to IKEA. 
-				<br/><br/>
+				{/* <br/><br/> */}
+			</p>
+			<p>
+				<a href={Pdf} without rel="noopener noreferrer" target="_blank">
+					<button className = "button" trailingIcon="picture_as_pdf" label="Resume">
+						Resume
+					</button>
+				</a>
+				{" "}{" "}
+				<a href="https://www.linkedin.com/in/ivanc-g/" without rel="noopener noreferrer" target="_blank">
+					<button className = "button" trailingIcon="picture_as_pdf" label="LinkedIn">
+						LinkedIn
+					</button>
+				</a>
 			</p>	
-			<a href={Pdf} without rel="noopener noreferrer" target="_blank">
-			  <button className = "button" trailingIcon="picture_as_pdf" label="Resume">
-				Resume
-			  </button>
-		   </a>
+			
 		</div>
 	</div>
   );
